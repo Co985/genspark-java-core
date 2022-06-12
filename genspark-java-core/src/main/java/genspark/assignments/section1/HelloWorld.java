@@ -3,8 +3,12 @@ package genspark.assignments.section1;
 import genspark.assignments.Assignment;
 
 public class HelloWorld implements Assignment {
-    public String solution(String hello){
+    public static void main(String[] args) {
         // ↓↓↓↓ your code goes here ↓↓↓↓
-        return null;
+
+       // String = "hello";
+        System.out.println("hello" + "World");
+     //   System.out.println(hello.charAt(0));
+      //  return null;
     }
 }
